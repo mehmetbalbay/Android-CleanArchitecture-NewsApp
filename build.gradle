@@ -1,5 +1,18 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
+    ext {
+        room_version = "2.4.0-beta02"
+        coroutines_version = "1.5.1"
+        lifecycle_version = "2.4.0"
+        retrofit_version = "2.9.0"
+        okhttp_interceptor_version = "5.0.0-alpha.2"
+        navigation_version = "2.3.5"
+        glide_version = "4.11.0"
+        hilt_android_version = "2.38.1"
+        hilt_android_compiler_version = "2.37"
+        hilt_compiler_version = "1.0.0"
+        timber_version = "5.0.1"
+    }
+
     repositories {
         google()
         mavenCentral()
@@ -7,9 +20,7 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0"
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.38.1"
     }
 }
 
