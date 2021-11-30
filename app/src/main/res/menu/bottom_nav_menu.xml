@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feedFragment"
+        android:icon="@drawable/ic_grid"
+        android:menuCategory="secondary"
+        android:title="@string/title_feed" />
+
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/ic_compass"
+        android:menuCategory="secondary"
+        android:title="@string/title_explore" />
+
+    <item
+        android:id="@+id/savedFragment"
+        android:icon="@drawable/ic_bookmark"
+        android:menuCategory="secondary"
+        android:title="@string/title_saved" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_user"
+        android:menuCategory="secondary"
+        android:title="@string/title_profile" />
+
+</menu>

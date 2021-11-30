@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.articlesfeedapp.feature_feed.presentation.FeedFragment"
+        android:label="FeedFragment"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.articlesfeedapp.feature_explore.presentation.ExploreFragment"
+        android:label="ExploreFragment"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.example.articlesfeedapp.feature_saved.presentation.SavedFragment"
+        android:label="SavedFragment"
+        tools:layout="@layout/fragment_saved" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.articlesfeedapp.feature_profile.presentation.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
 
 </navigation>
