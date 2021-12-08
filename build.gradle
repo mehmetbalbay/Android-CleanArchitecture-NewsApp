@@ -12,6 +12,7 @@ buildscript {
         hilt_android_compiler_version = "2.37"
         hilt_compiler_version = "1.0.0"
         timber_version = "5.0.1"
+        circle_imageview_version = "3.1.0"
     }
 
     repositories {
